@@ -54,6 +54,12 @@ function editarTarefa(id, campo, valor) {
     renderizarTarefas();
   }
   
+  // Limpa os campos de entrada
+  function limparCampos() {
+    document.getElementById("description").value = "";
+    document.getElementById("value").value = "";
+    document.getElementById("category").value = "";
+  }
   
   
  
