@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de Tarefas</h1>
+    <div class="task-input">
+      <input id="description" type="text" placeholder="Descrição">
+      <input id="value" type="number" placeholder="Valor">
+      <input id="category" type="text" placeholder="Categoria">
+      <button id="addTask">Adicionar</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Descrição</th>
+          <th>Valor</th>
+          <th>Categoria</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="taskList"></tbody>
+    </table>
+    <h2 id="total">Total: R$ 0.00</h2>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
