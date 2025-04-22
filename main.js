@@ -48,6 +48,12 @@ function editarTarefa(id, campo, valor) {
     renderizarTarefas();
   }
 
+   // Exclui uma tarefa da lista
+   function excluirTarefa(id) {
+    tarefas = tarefas.filter((tarefa) => tarefa.id !== id);
+    renderizarTarefas();
+  }
+  
   
   
  
